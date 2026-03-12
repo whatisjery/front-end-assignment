@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-mui-color-scheme="dark"], [data-mui-color-scheme="dark"] *));
+
+@theme {
+    --font-sans: "Geist", sans-serif;
+    --font-weight-thin: 100;
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+}
+
+@theme {
+    --color-upcoming: #2680ff;
+    --color-success: #1fd888;
+    --color-failed: #ef4444;
+    --color-unknown: #7e7e7e;
+}
+
+@theme inline {
+    --color-primary: rgb(var(--mui-palette-primary-mainChannel));
+    --color-background: rgb(var(--mui-palette-background-defaultChannel));
+    --color-text: rgb(var(--mui-palette-text-primaryChannel));
+    --color-secondary: rgb(var(--mui-palette-text-secondaryChannel));
+    --color-divider: rgb(var(--mui-palette-dividerChannel));
+    --color-background-muted: var(--mui-palette-background-muted);
+}
+@layer base {
+    body {
+        background-color: var(--color-background-muted);
+        color: var(--color-text);
+        font-family: var(--font-sans);
+        font-weight: var(--font-weight-normal);
+    }
+}
