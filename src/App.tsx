@@ -26,7 +26,7 @@ export default function App() {
                         component="a"
                         size="small"
                         color="inherit"
-                        href="#"
+                        href="https://github.com/whatisjery/front-end-assignment"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary"
