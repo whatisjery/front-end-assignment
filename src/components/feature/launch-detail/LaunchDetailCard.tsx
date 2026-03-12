@@ -209,7 +209,7 @@ export default function LaunchDetailsCard({ launch, onClose }: LaunchDetailsCard
             {showIndicator && (
                 <div className="pointer-events-none absolute bottom-0 pb-5 left-0 right-0 h-50 flex flex-col items-center justify-end bg-gradient-to-t from-background-muted to-transparent">
                     <span className="text-xs uppercase mb-1 text-secondary/80">
-                        Scroll ro see more
+                        Scroll to see more
                     </span>
 
                     <KeyboardArrowDown className="text-secondary/80" fontSize="small" />

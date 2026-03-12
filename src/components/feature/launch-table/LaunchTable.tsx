@@ -121,7 +121,6 @@ export default function LaunchTable({ onSelectLaunch }: LaunchTableProps) {
                 columnVisibilityModel={{
                     rocket: !isMobile,
                     launchpad: !isMobile,
-                    flight_number: !isMobile,
                     date_local: !isMobile,
                 }}
                 onPaginationModelChange={handlePaginationChange}
