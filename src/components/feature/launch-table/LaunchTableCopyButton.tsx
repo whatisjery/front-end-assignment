@@ -11,7 +11,7 @@ function formatLaunchForCopy(launch: Launch): string {
     return `#${launch.flight_number} — ${launch.name} — ${formatDate(launch.date_local)} — ${status.label}`
 }
 
-export default function LaunchTableCoppyButton() {
+export default function LaunchTableCopyButton() {
     const apiRef = useGridApiContext()
     const selectedIds = useGridSelector(apiRef, gridRowSelectionIdsSelector)
     const count = selectedIds.size

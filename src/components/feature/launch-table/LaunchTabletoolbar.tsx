@@ -1,7 +1,7 @@
 import { FileDownload, Search } from "@mui/icons-material"
 import { Button, InputAdornment, TextField } from "@mui/material"
 import { useGridApiContext } from "@mui/x-data-grid"
-import LaunchTableCoppyButton from "./LaunchTableCoppyButton"
+import LaunchTableCopyButton from "./LaunchTableCopyButton"
 
 declare module "@mui/x-data-grid" {
     interface ToolbarPropsOverrides {
@@ -41,7 +41,7 @@ export default function LaunchTabletoolbar({ search, onSearchChange }: LaunchTab
             />
 
             <div className="flex sm:justify-end justify-start gap-x-2">
-                <LaunchTableCoppyButton />
+                <LaunchTableCopyButton />
 
                 <Button
                     variant="contained"

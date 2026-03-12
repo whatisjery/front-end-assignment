@@ -12,7 +12,7 @@ import TabLabel from "../../ui/TabLabel"
 import { columns } from "./_columns"
 import LaunchTableEmpty from "./LaunchTableEmpty"
 import LaunchTableError from "./LaunchTableError"
-import LunchTabletoolbar from "./LaunchTabletoolbar"
+import LaunchTabletoolbar from "./LaunchTabletoolbar"
 
 interface LaunchTableProps {
     onSelectLaunch: (launch: Launch) => void
@@ -91,7 +91,7 @@ export default function LaunchTable({ onSelectLaunch }: LaunchTableProps) {
             <DataGrid
                 showToolbar
                 slots={{
-                    toolbar: LunchTabletoolbar,
+                    toolbar: LaunchTabletoolbar,
                     noRowsOverlay: error ? LaunchTableError : LaunchTableEmpty,
                 }}
                 slotProps={{
