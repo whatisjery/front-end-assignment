@@ -10,8 +10,12 @@ npm run dev
 
 App runs at http://localhost:5173
 
+## Live URL
 
-## linting and formatting
+ [https://front-end-assignment-psi.vercel.app/]( https://front-end-assignment-psi.vercel.app/)
+
+
+## Linting and formatting
 
 > **Note:** I have chosen [Biome](https://biomejs.dev/) for linting and formatting.
 
